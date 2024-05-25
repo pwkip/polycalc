@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+td.num {
+    text-align: right;
+}
+
+tr:nth-child(even) td.attack {
+    background-color: #ffe0e0;
+}
+tr:nth-child(odd) td.attack {
+    background-color: #ffe7e7;
+}
+
+tr:nth-child(even) td.defense {
+    background-color: #e0e0ff;
+}
+tr:nth-child(odd) td.defense {
+    background-color: #e7e7ff;
+}
+
+tr:nth-child(even) td.movement {
+    background-color: #e0ffe0;
+}
+tr:nth-child(odd) td.movement {
+    background-color: #e7ffe7;
+}
+
+tr:nth-child(even) td.health {
+    background-color: #ffffb8;
+}
+tr:nth-child(odd) td.health {
+    background-color: #ffffe7;
+}
